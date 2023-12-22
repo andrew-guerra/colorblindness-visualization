@@ -7,5 +7,17 @@
         <div>
             This website acts a way to better visualize and understand the difference between colorblindness and regular color vision.
         </div>
+        <form action="">
+            <div style="display: grid">
+                <p style="grid-row: 1; grid-column: 1; color: red">Red</p>
+                <p style="grid-row: 1; grid-column: 2; color: green"">Green</p>
+                <p style="grid-row: 1; grid-column: 3; color: blue">Blue</p>
+                <input type="range" min="0" max="1" step="0.1" value="1" id="redMaxActivation" name="redMaxActivation" style="grid-row: 2; grid-column: 1; color: red;">
+                <input type="range" min="0" max="1" step="0.1" value="1" id="greenMaxActivation" name="greenMaxActivation" style="grid-row: 2; grid-column: 2; color: green">
+                <input type="range" min="0" max="1" step="0.1" value="1" id="blueMaxActivation" name="blueMaxActivation" style="grid-row: 2; grid-column: 3; color: blue">
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+        
     </body>
 </html>
